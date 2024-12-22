@@ -220,10 +220,11 @@
       "url": "https://packages.unity.com"
     },
     "dk.zealand.device-info": {
-      "version": "file:C:/Users/mostg/OneDrive/Skrivebord/dk.zealand.device-info",
+      "version": "https://github.com/Fuiakoi/dk.zealand.device-info.git",
       "depth": 0,
-      "source": "local",
-      "dependencies": {}
+      "source": "git",
+      "dependencies": {},
+      "hash": "84b3746464b1b3add8e06a03e43fd708848972fe"
     },
     "com.unity.modules.ai": {
       "version": "1.0.0",
