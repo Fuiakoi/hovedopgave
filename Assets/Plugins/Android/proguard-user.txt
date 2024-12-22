@@ -1,0 +1,4 @@
+-keep class dk.zealand.deviceinfo.AndroidDeviceInfo { *; }
+-keep interface dk.zealand.deviceinfo.AndroidDeviceInfo$LongListener { *; }
+-keep interface dk.zealand.deviceinfo.AndroidDeviceInfo$IntListener { *; }
+-keep interface dk.zealand.deviceinfo.AndroidDeviceInfo$StringListener { *; }
