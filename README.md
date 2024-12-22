@@ -1,5 +1,5 @@
 # Hovedopgave
-This is a Graphical user interface, designed to demo/showcase a device information gathering library and to work in tandem with X. Its developed in Unity with C# and designed to run on both Android and iOS platforms.
+This is a Graphical user interface, designed to demo/showcase a device information gathering library and to work in tandem with [dk.zealand.device-info](https://github.com/Fuiakoi/dk.zealand.device-info.git). It's developed in Unity with C# and designed to run on both Android and iOS platforms.
 
 ### Features
 The GUI current includes the following buttons
@@ -9,11 +9,11 @@ The GUI current includes the following buttons
 2. CPU cores
     - Retrieves number of CPU cores
 3. OS version
-    - Retrieves operating system and version of.
+    - Retrieves operating system and version of OS
 4. Device memory
     - Retrieves device memory(RAM), showed in megabytes
 5. Device Vendor
-    - Retrieves the unique id for the device.
+    - Retrieves the unique id for the device
 
 ### Usage Instructions
 1. Start the App
