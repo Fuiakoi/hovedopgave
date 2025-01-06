@@ -42,5 +42,7 @@
     "com.unity.modules.xr": "1.0.0",
     "dk.zealand.device-info": "https://github.com/Fuiakoi/dk.zealand.device-info.git"
   },
-  "testables": ["dk.zealand.device-info"]
+  "testables": [
+    "dk.zealand.device-info"
+  ]
 }
