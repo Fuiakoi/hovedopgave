@@ -7,17 +7,23 @@ The GUI current includes the following buttons:
 ### Device Model
 - Retrieves details about the device model.
 
-### CPU cores
+### CPU Cores
 - Retrieves number of CPU cores.
 
-### OS version
+### OS Version
 - Retrieves operating system and version of OS.
 
-### Device memory
+### Device Memory
 - Retrieves device memory (RAM), showed in megabytes.
 
 ### Device Vendor
 - Retrieves the unique id for the device.
+
+### All Info
+- Retrieves all the information
+
+### Clear
+- Removes the information
 
 ## Usage Instructions
 - Start the App
