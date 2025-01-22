@@ -172,7 +172,7 @@ public class UiController : MonoBehaviour
         countdownText.text = string.Empty;
     }
 
-	async void ToggleDeviceModel()
+    public async void ToggleDeviceModel()
 	{
 		if (_tokenDeviceModel != null)
 		{
@@ -211,7 +211,7 @@ public class UiController : MonoBehaviour
 		}
 	}
 
-    async void ToggleCpuCores()
+	public async void ToggleCpuCores()
 	{
 		if (_tokenCpuCores != null)
 		{
@@ -250,7 +250,7 @@ public class UiController : MonoBehaviour
 		}
 	}
 
-	async void ToggleOsVersion()
+	public async void ToggleOsVersion()
 	{
 		if (_tokenOsVersion != null)
 		{
@@ -289,7 +289,7 @@ public class UiController : MonoBehaviour
 		}
 	}
 
-	async void ToggleTotalMemory()
+	public async void ToggleTotalMemory()
 	{
 		if (_tokenDeviceMemory != null)
 		{
@@ -328,7 +328,7 @@ public class UiController : MonoBehaviour
 		}
 	}
 
-	async void ToggleDeviceVendor()
+	public async void ToggleDeviceVendor()
 	{
 		if (_tokenDeviceVendor != null)
 		{
