@@ -157,19 +157,7 @@ public class UiController : MonoBehaviour
         clearButtonText.text = "Clear all text";
         
         // Reset device information texts to empty
-        unityDeviceModelText.text = string.Empty;
-        unityCpuCoresText.text = string.Empty;
-        unityOsVersionText.text = string.Empty;
-        unityTotalMemoryText.text = string.Empty;
-        unityDeviceVendorText.text = string.Empty;
-
-        nativeDeviceModelText.text = string.Empty;
-        nativeCpuCoresText.text = string.Empty;
-        nativeOsVersionText.text = string.Empty;
-        nativeTotalMemoryText.text = string.Empty;
-        nativeDeviceVendorText.text = string.Empty;
-
-        countdownText.text = string.Empty;
+        ClearAllText();
     }
 
     public async void ToggleDeviceModel()
